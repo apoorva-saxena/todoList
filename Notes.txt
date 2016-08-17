@@ -1,0 +1,23 @@
+Why TDD?
+
+behaves the way the customer wants
+so that users are able to interact with the application well
+others can understand the code better
+easy to refactor
+easy to modify or extend
+guide the design decisions of the application
+validating code that works correctly
+established trust( confident that the code pushed to master works )
+
+red green refacor
+write a failing test and then we make the test pass by writing a working code and then refactor the code
+
+
+Unit test?
+factory girls
+shoulda mathchers
+DatabaseCleaners
+
+steps:
+1) rails new . -T (removes the initial test framework which test unit)
+2) 
