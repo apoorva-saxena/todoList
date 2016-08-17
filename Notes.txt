@@ -20,4 +20,8 @@ DatabaseCleaners
 
 steps:
 1) rails new . -T (removes the initial test framework which test unit)
-2) 
+2) Change the gemfile
+3) rails g rspec:install
+4) in rails_helper.rb (config.use_transactional_fixtures = true ) to (config.use_transactional_fixtures = falss)
+5) Remove this line   config.fixture_path = "#{::Rails.root}/spec/fixtures" from the rails_helper.rb
+6) run rake to run tests
