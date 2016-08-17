@@ -25,3 +25,9 @@ steps:
 4) in rails_helper.rb (config.use_transactional_fixtures = true ) to (config.use_transactional_fixtures = falss)
 5) Remove this line   config.fixture_path = "#{::Rails.root}/spec/fixtures" from the rails_helper.rb
 6) run rake to run tests
+7) Create first test
+8) got to route and create root to: "todos#index"
+9) create todos_controller manually
+10) Add index route to todos_controller
+11) Create template at path app/views/todos by the name index.html
+12) 
