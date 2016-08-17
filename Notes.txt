@@ -29,5 +29,7 @@ steps:
 8) got to route and create root to: "todos#index"
 9) create todos_controller manually
 10) Add index route to todos_controller
-11) Create template at path app/views/todos by the name index.html
-12) 
+11) Create template at path app/views/todos by the name index.html.erb
+12) Write the second test
+13) Generate model using rails g model Todo title
+14) run rake db:migrate
