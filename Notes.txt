@@ -33,3 +33,5 @@ steps:
 12) Write the second test
 13) Generate model using rails g model Todo title
 14) run rake db:migrate
+15) Create support files inside (spec/support/features/sign_in.rb)
+16) Goto railshelper and before last end add config.include Features, type: :feature
